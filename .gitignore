@@ -25,3 +25,4 @@ yarn-error.log*
 /.idea
 #some comment for test
 #comment after you've started work in another branch
+#branch_1
