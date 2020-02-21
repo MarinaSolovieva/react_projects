@@ -10,15 +10,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url("img/beach6.jpg") center center no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-blend-mode: multiply;
 
-    background: rgba(255,160,82,1);
-    background: -moz-linear-gradient(left, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,160,82,1)), color-stop(30%, rgba(255,160,82,1)), color-stop(79%, rgba(233,106,1,1)), color-stop(98%, rgba(233,106,1,1)));
-    background: -webkit-linear-gradient(left, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);
-    background: -o-linear-gradient(left, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);
-    background: -ms-linear-gradient(left, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);
-    background: linear-gradient(to right, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa052', endColorstr='#e96a01', GradientType=1 );
+    /*background: rgba(255,160,82,1);*/
+    /*background: -moz-linear-gradient(left, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);*/
+    /*background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,160,82,1)), color-stop(30%, rgba(255,160,82,1)), color-stop(79%, rgba(233,106,1,1)), color-stop(98%, rgba(233,106,1,1)));*/
+    /*background: -webkit-linear-gradient(left, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);*/
+    /*background: -o-linear-gradient(left, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);*/
+    /*background: -ms-linear-gradient(left, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);*/
+    /*background: linear-gradient(to right, rgba(255,160,82,1) 0%, rgba(255,160,82,1) 30%, rgba(233,106,1,1) 79%, rgba(233,106,1,1) 98%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa052', endColorstr='#e96a01', GradientType=1 );*/
 
 
     /*background: rgba(255,143,201,1);*/
@@ -41,21 +45,33 @@ body {
 }
 
 .main {
-    height: 65vh;
-    background: #FCC062;
-    box-shadow: inset 2px 2px 50px 5px rgba(154,147,140,0.5), inset 2px 2px 100px 5px rgba(255, 255, 103, 1);
-    width: 70%;
+    height: 55vh;
+    /*background: #FCC062;*/
+    /*box-shadow: inset 2px 2px 50px 5px rgba(154,147,140,0.5), inset 2px 2px 100px 5px rgba(255, 255, 103, 1);*/
+    width: 60%;
     margin: 0 auto;
+    background: rgba(81,219,171,1);
+    background: -moz-linear-gradient(45deg, rgba(81,219,171,1) 0%, rgba(81,219,171,1) 11%, rgba(81,219,171,1) 22%, rgba(122,191,255,1) 79%, rgba(122,191,255,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(81,219,171,1)), color-stop(11%, rgba(81,219,171,1)), color-stop(22%, rgba(81,219,171,1)), color-stop(79%, rgba(122,191,255,1)), color-stop(100%, rgba(122,191,255,1)));
+    background: -webkit-linear-gradient(45deg, rgba(81,219,171,1) 0%, rgba(81,219,171,1) 11%, rgba(81,219,171,1) 22%, rgba(122,191,255,1) 79%, rgba(122,191,255,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(81,219,171,1) 0%, rgba(81,219,171,1) 11%, rgba(81,219,171,1) 22%, rgba(122,191,255,1) 79%, rgba(122,191,255,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(81,219,171,1) 0%, rgba(81,219,171,1) 11%, rgba(81,219,171,1) 22%, rgba(122,191,255,1) 79%, rgba(122,191,255,1) 100%);
+    background: linear-gradient(45deg, rgba(81,219,171,1) 0%, rgba(81,219,171,1) 11%, rgba(81,219,171,1) 22%, rgba(122,191,255,1) 79%, rgba(122,191,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51dbab', endColorstr='#7abfff', GradientType=1 );
+
+
 }
 
 .info {
-    height: 65vh;
-    background: url("img/polygon.jpg") center center no-repeat;
-    background-color: transparent;
+    height: 55vh;
+    /*background: url("img/beach6.jpg") center center no-repeat;*/
+    /*background-size: cover;*/
+    /*background-color: transparent;*/
     /*background-blend-mode: multiply;*/
-    border: 2px solid #1A081F;
+    border: 2px solid #6700FF;
     /*border-right: 2px solid #131e29;*/
-    background-size: cover;
+
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,22 +80,22 @@ body {
 }
 
 .form {
-    height: 65vh;
+    height: 55vh;
     padding-top: 100px;
     padding-left: 50px;
-    border-top: 2px solid #1A081F;
-    border-bottom: 2px solid #1A081F;
-    border-right: 2px solid #1A081F;
+    border-top: 2px solid #6700FF;
+    border-bottom: 2px solid #6700FF;
+    border-right: 2px solid #6700FF;
 
 }
 
 input[type="text"] {
     background-color: transparent;
     border: 0;
-    border-bottom: solid 2px #1A081F;
+    border-bottom: 2px solid #6700FF;
     width: 50%;
     padding-bottom: 4px;
-    color: #D7DCFF;
+    color: #0C39FF;
     font-weight: lighter;
     margin-bottom: 30px;
     margin-right: 20px;
@@ -88,11 +104,15 @@ input[type="text"] {
 }
 
 input::-webkit-input-placeholder {
-    color: #ffff;
+    color: #F8FC05;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 input::-moz-placeholder {
-    color: #ffff;
+    color: #F8FC05;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 button {
@@ -103,42 +123,46 @@ button {
     border-radius: 10px;
     cursor: pointer;
     background-color: #235d9c;
-    color: #D7DCFF;
+    color: #F4EAFF;
     outline: none!important;
-    box-shadow: 1px 1px 1px 1px #FF2138;
+    /*box-shadow: 1px 1px 1px 1px #FF2138;*/
 }
 
 button:hover {
     border-bottom: 2px solid #103a65;
     position: relative;
-    top: 2px;
+    top: 4px;
 }
 
 button:active {
     border-bottom: 2px solid ;
     position: relative;
-    top: 2px;
+    top: 4px;
 }
 
 .info h2 {
-    font-size: 4em;
-    color: #FF0015;
-    font-weight: normal;
+    font-size: 3em;
+    color: #F8FC05;
+    font-weight: bold;
 }
 
 .info p {
-    color: #FF3500;
-    font-weight: bold;
+    color: #125319;
+    font-weight: bolder;
     padding-top: 90px;
 }
 
 .infoWeath {
     width: 60%;
-    font-size: 20px;
+    font-size: 18px;
     color: #125319;
+    font-weight: bolder;
 }
 
 .error {
     color: #125319;
     font-weight: bold;
+
 }
+
+
